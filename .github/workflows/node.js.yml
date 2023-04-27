@@ -5,7 +5,7 @@ on:
    branches: ["main"]
    
 jobs:
- uses:
+ my_build_job:
   run-on: ubunt-latest
   steps:
    -uses: actions/checkout@v3
