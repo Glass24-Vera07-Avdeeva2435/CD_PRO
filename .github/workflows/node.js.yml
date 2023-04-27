@@ -13,5 +13,8 @@ iobs:
     run:|
      npm install
      npm run build
+   -name: Run a one-line script
+    run: echo Hello, world!
+     
    -name: Run JS file for test
-    run node script.js
+    run: node script.js
