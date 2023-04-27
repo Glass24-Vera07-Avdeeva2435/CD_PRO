@@ -1,0 +1,4 @@
+{
+  "main": "./krestik/script.js",
+  "scripts" : {"build": "node ./krestik/script.js"}
+}
