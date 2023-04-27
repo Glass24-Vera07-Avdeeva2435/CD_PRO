@@ -1,0 +1,14 @@
+name: CI
+
+on:
+ push:
+   branches: ["main"]
+iobs:
+ my_build_job:
+  run-on: ubunt-latest
+  steps:
+   -uses: actions/checkout@v3
+   -name: npm install, test and build
+    run:|
+     npm install
+     npm run build
