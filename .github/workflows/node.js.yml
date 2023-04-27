@@ -3,6 +3,7 @@ name: CI
 on:
  push:
    branches: ["main"]
+   
 iobs:
  my_build_job:
   run-on: ubunt-latest
@@ -12,3 +13,5 @@ iobs:
     run:|
      npm install
      npm run build
+   -name: Run JS file for test
+    run node script.js
