@@ -12,8 +12,16 @@ jobs:
   steps:
    -uses: actions/checkout@v3
    -name: npm install, test and build
-     run:|
+     run: |
      npm install
      npm run build
+   
+   -name: Run a multi-line script
+     run: | 
+     echo Add other action to build
+     echo test? and deploy your project
+    
+   -name: Run JS file for test
+    run: node script.js
      
   
