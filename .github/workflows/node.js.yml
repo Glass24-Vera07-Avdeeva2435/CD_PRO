@@ -1,4 +1,4 @@
-name: CI
+name: CD_PRO
 
 on:
  push:
