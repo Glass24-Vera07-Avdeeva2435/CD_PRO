@@ -1,4 +1,4 @@
-name: CD_PRO
+name: run
 
 on:
  push:
