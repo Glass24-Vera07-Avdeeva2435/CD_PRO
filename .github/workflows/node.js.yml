@@ -26,6 +26,6 @@ jobs:
          echo test? and deploy your project
     
    - name: Run JS file for test
-     run: | node script.js
+     run: node /script.js
      
   
