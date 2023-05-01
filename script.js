@@ -66,7 +66,7 @@ function myfunc() {
 function reset() {
 
     location.reload();
-    document .getElementById("bi").value='';
+    document .getElementById("b1").value='';
     document .getElementById("b2").value='';
     document .getElementById("b3").value='';
     document .getElementById("b4").value='';
